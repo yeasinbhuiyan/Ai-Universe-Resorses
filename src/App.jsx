@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
-import Header from './components/Header/Header';
-import Main from './components/Main';
+import Main from './components/Main/Main';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <div>
-     <Header>Sort By Date</Header>
-     <Main></Main>
+    <Navbar></Navbar>
+    <Main></Main>
       
     </div>
   );
